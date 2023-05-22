@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.figueroa.test1.ui.car.viewmodel.CarViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.car.newCar.NewCarFragment"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/medium_gap"
+
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/cars_resume"
+            android:textSize="30sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/car_name_text_field"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="@dimen/medium_gap"
+            android:layout_marginTop="@dimen/big_gap"
+            android:layout_marginEnd="@dimen/medium_gap"
+
+            android:hint="@string/car_name_hint"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/car_name_edit_text"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="@={viewmodel.name}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/car_brand_text_field"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="@dimen/medium_gap"
+            android:layout_marginEnd="@dimen/medium_gap"
+            android:layout_marginTop="@dimen/medium_gap"
+
+            android:hint="Car brand"
+
+            app:layout_constraintEnd_toEndOf="@+id/car_name_text_field"
+            app:layout_constraintStart_toStartOf="@+id/car_name_text_field"
+            app:layout_constraintTop_toBottomOf="@+id/car_name_text_field" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/car_brand_edit_text"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="@={viewmodel.brand}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/car_year_text_field"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="@dimen/medium_gap"
+            android:layout_marginEnd="@dimen/medium_gap"
+            android:layout_marginTop="@dimen/medium_gap"
+
+            android:hint="Car year"
+
+            app:layout_constraintEnd_toEndOf="@+id/car_brand_text_field"
+            app:layout_constraintStart_toStartOf="@+id/car_brand_text_field"
+            app:layout_constraintTop_toBottomOf="@+id/car_brand_text_field">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/car_year_edit_text"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="@={viewmodel.year}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/car_description_text_field"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="@dimen/medium_gap"
+            android:layout_marginEnd="@dimen/medium_gap"
+            android:layout_marginTop="@dimen/medium_gap"
+
+            android:hint="Car description"
+
+            app:layout_constraintEnd_toEndOf="@+id/car_year_text_field"
+            app:layout_constraintStart_toStartOf="@+id/car_year_text_field"
+            app:layout_constraintTop_toBottomOf="@+id/car_year_text_field">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/car_description_edit_text"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="@={viewmodel.description}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/car_price_text_field"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="@dimen/medium_gap"
+            android:layout_marginEnd="@dimen/medium_gap"
+            android:layout_marginTop="@dimen/medium_gap"
+
+            android:hint="Car price"
+
+            app:layout_constraintEnd_toEndOf="@+id/car_description_text_field"
+            app:layout_constraintStart_toStartOf="@+id/car_description_text_field"
+            app:layout_constraintTop_toBottomOf="@+id/car_description_text_field">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/car_price_edit_text"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="@={viewmodel.price}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/create_car_button"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="@dimen/medium_gap"
+
+            android:text="Crear coche"
+            android:fontFamily="sans-serif-condensed"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/car_price_text_field" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

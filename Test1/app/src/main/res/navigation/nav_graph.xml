@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/resumeCars">
+
+    <fragment
+        android:id="@+id/resumeCars"
+        android:name="com.figueroa.test1.ui.car.resumeCars.ResumeCars"
+        android:label="ResumeCars" >
+        <action
+            android:id="@+id/action_resumeCars_to_carFragment"
+            app:destination="@id/carFragment" />
+        <action
+            android:id="@+id/action_resumeCars_to_newCarFragment"
+            app:destination="@id/newCarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carFragment"
+        android:name="com.figueroa.test1.ui.car.CarFragment"
+        android:label="CarFragment" />
+    <fragment
+        android:id="@+id/newCarFragment"
+        android:name="com.figueroa.test1.ui.car.newCar.NewCarFragment"
+        android:label="NewCarFragment" />
+</navigation>

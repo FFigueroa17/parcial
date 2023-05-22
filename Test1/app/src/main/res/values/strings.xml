@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="car_name">Honda Civic</string>
+    <string name="car_brand">Honda</string>
+    <string name="car_price">100000</string>
+    <string name="car_year">2019</string>
+    <string name="car_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl eget aliquam lacinia, nisl nisl lacinia nisl, nec aliquam nisl nisl nec.</string>
+    <string name="cars_resume">Cars Resume</string>
+    <string name="car_name_hint">Car name</string>
+</resources>
