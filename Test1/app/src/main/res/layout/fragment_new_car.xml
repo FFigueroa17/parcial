@@ -183,6 +183,7 @@
             android:layout_marginTop="@dimen/medium_gap"
 
             android:text="Crear coche"
+            android:onClick="@{() -> viewmodel.createCar()}"
             android:fontFamily="sans-serif-condensed"
 
             app:layout_constraintEnd_toEndOf="parent"

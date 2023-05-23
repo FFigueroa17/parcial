@@ -28,14 +28,13 @@ class CarViewModel(private val carRepository: CarRepository): ViewModel() {
     // TODO 3: Create a function called getCars that returns the list of cars from the repository
 
     fun getCars() = carRepository.getCars()
-
     // TODO 4: Create a function called addCar that receives a CarModel as a parameter and adds it to the repository
 
     private fun addCar(car: CarModel) = carRepository.addCar(car)
 
     // TODO 5: Create a function called createCar that validates the data and adds a new car to the repository
 
-    private fun createCar(){
+    fun createCar(){
 
         // VALIDAMOS QUE LA DATA NO ESTE VACIA
 
@@ -65,6 +64,8 @@ class CarViewModel(private val carRepository: CarRepository): ViewModel() {
         // CAMBIAMOS EL STATUS
 
         status.value = CAR_CREATED
+
+
     }
     // FUNCION PARA VALIDAR LA DATA
 
@@ -124,6 +125,7 @@ class CarViewModel(private val carRepository: CarRepository): ViewModel() {
                 val app = this[APPLICATION_KEY] as CarReviewerAplication
                 CarViewModel(app.carRepository)
             }
+
         }
 
         // TODO 7: Create a const val for each of the possible status of the app that will help us later on the UI

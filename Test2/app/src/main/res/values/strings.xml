@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">test2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="car_name">Honda</string>
+    <string name="car_brand">Honda Civic</string>
+    <string name="car_description">Honda civic bla bla bl</string>
+    <string name="resume_cars_tittle">Resume Cars</string>
+    <string name="add_car">Add Car</string>
+</resources>

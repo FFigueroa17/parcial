@@ -9,18 +9,22 @@
         android:name="com.figueroa.test1.ui.car.resumeCars.ResumeCars"
         android:label="ResumeCars" >
         <action
-            android:id="@+id/action_resumeCars_to_carFragment"
-            app:destination="@id/carFragment" />
-        <action
             android:id="@+id/action_resumeCars_to_newCarFragment"
             app:destination="@id/newCarFragment" />
+        <action
+            android:id="@+id/action_resumeCars_to_carFragment"
+            app:destination="@id/carFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newCarFragment"
+        android:name="com.figueroa.test1.ui.car.newCar.NewCarFragment"
+        android:label="NewCarFragment" >
+        <action
+            android:id="@+id/action_newCarFragment_to_resumeCars"
+            app:destination="@id/resumeCars" />
     </fragment>
     <fragment
         android:id="@+id/carFragment"
         android:name="com.figueroa.test1.ui.car.CarFragment"
         android:label="CarFragment" />
-    <fragment
-        android:id="@+id/newCarFragment"
-        android:name="com.figueroa.test1.ui.car.newCar.NewCarFragment"
-        android:label="NewCarFragment" />
 </navigation>

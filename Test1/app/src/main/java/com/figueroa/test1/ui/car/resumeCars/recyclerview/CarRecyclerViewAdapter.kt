@@ -11,7 +11,6 @@ class CarRecyclerViewAdapter(private  val clickListener:(CarModel) -> Unit) : Re
 
 
     // DECLRAR EL MODEL
-
     private val cars = ArrayList<CarModel>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CarRecyclerViewHolder {

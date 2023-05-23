@@ -52,7 +52,7 @@ class ResumeCars : Fragment() {
 
         binding.addCarButton.setOnClickListener{
             carViewModel.clearData()
-            it.findNavController().navigate(R.id.action_resumeCars_to_carFragment)
+            it.findNavController().navigate(R.id.action_resumeCars_to_newCarFragment)
         }
     }
 

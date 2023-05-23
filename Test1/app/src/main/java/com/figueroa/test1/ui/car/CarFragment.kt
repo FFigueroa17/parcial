@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import com.figueroa.test1.R
+import com.figueroa.test1.databinding.FragmentCarBinding
 import com.figueroa.test1.databinding.FragmentNewCarBinding
 import com.figueroa.test1.ui.car.viewmodel.CarViewModel
 
@@ -20,7 +21,7 @@ class CarFragment : Fragment() {
 
     // DATA BINDING
 
-    private lateinit var binding: FragmentNewCarBinding
+    private lateinit var binding: FragmentCarBinding
 
     // ON CREATE VIEW ( SET DATA BINDING )
 
@@ -28,7 +29,7 @@ class CarFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentNewCarBinding.inflate(inflater, container, false)
+        binding = FragmentCarBinding.inflate(inflater, container, false)
         return binding.root
     }
 

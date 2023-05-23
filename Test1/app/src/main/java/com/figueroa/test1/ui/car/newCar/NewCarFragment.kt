@@ -28,7 +28,7 @@ class NewCarFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentNewCarBinding.inflate(inflater, container, false)
         return binding.root
     }
