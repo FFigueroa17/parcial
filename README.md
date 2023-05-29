@@ -1,5 +1,7 @@
 <h1 align="center"> CentroDeportivo App - API</h1>
-[![banner.png](https://i.postimg.cc/DZDfh6FH/banner.png)](https://postimg.cc/Hcw14Qr9)
+<p align="center">
+  <img src="https://i.postimg.cc/DZDfh6FH/banner.png)](https://postimg.cc/Hcw14Qr9"/>
+  </p>
 
 ## Table of Contents
 1. [General Info](#general-info)
