@@ -3,24 +3,21 @@
   <img src="https://i.postimg.cc/DZDfh6FH/banner.png)](https://postimg.cc/Hcw14Qr9"/>
   </p>
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-### General Info
+## Tabla de contenidos
+1. [Información general](#información-general)
+2. [Tecnologías](#tecnologías)
+3. [Instalación](#instalación)
+### Información general
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## Technologies
+La API de CentroDeportivo App es una interfaz de programación de aplicaciones diseñada para brindar acceso y funcionalidad a los servicios y datos relacionados con las instalaciones y actividades deportivas ofrecidas por el centro deportivo de la universidad, asi como noticias sobre las actividades realizadas en este.
+## Tecnologías
 ***
 A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-## Installation
+* [Node.js](https://nodejs.org/es): Version 18.16.0
+* [ExpressJs](https://expressjs.com): Version 4.18.12
+* [Swagger](https://swagger.io): Version 3.0
+## Instalación
 ***
-A little intro about the installation. 
 ```
 $ git clone https://github.com/PoliFitness-App/CentroDeportivoApp-API.git
 $ cd PoliFitnessApp/
