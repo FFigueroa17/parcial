@@ -1,5 +1,5 @@
 <h1 align="center"> CentroDeportivo App - API</h1>
-<p align="center"><img src="https://drive.google.com/file/d/11gT4yNZkMHjjTqk7kLijoDdqH2-GRE9G/view?usp=sharing"/></p> 
+<p align="center"><img src="https://photos.app.goo.gl/RfkmdHLBN9NBNraF8"/></p> 
 
 ## Table of Contents
 1. [General Info](#general-info)
