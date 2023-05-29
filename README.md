@@ -1,11 +1,10 @@
 <h1 align="center"> CentroDeportivo App - API</h1>
-<p align="center"><img src="https://ibb.co/W04VTKw"/></p> 
+<p align="center"><img src="[![banner.png](https://i.postimg.cc/DZDfh6FH/banner.png)](https://postimg.cc/Hcw14Qr9)"/></p> 
 
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
-4. [Collaboration](#collaboration)
 ### General Info
 ***
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
