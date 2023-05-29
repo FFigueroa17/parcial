@@ -1,15 +1,11 @@
-*Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo**. Puedes conocer más sobre la iniciativa del BID en [code.iadb.org](https://code.iadb.org)*
-
-<h1 align="center"> Nombre de la herramienta</h1>
-<p align="center"> Logo e imagen o gif de la interfaz principal de la herramienta</p>
-<p align="center"><img src="https://www.webdevelopersnotes.com/wp-content/uploads/create-a-simple-home-page.png"/></p> 
+<h1 align="center"> CentroDeportivo App - API</h1>
+<p align="center"><img src="https://drive.google.com/file/d/11gT4yNZkMHjjTqk7kLijoDdqH2-GRE9G/view?usp=sharing"/></p> 
 
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
 ### General Info
 ***
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
@@ -50,6 +46,3 @@ To answer this question we use an unordered list:
 3. **Third question in bold**
 Answer of the third question with *italic words*.
 4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
